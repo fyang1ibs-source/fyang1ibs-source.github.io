@@ -187,3 +187,14 @@ footer { background: var(--ink); color: white; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+/* Remove the frame around the profile photo */
+.portrait {
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.portrait img {
+  border-radius: 0;
+}
